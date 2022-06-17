@@ -35,5 +35,17 @@
     <ClInclude Include="statTypes.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="wizard.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cleric.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rogue.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="allClasses.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

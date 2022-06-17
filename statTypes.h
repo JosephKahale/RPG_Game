@@ -1,5 +1,7 @@
 #ifndef STATTYPES
 #define STATTYPES
 #include <cstdint>
-typedef std::uint8_t stattype;
+
+typedef std::uint16_t stattype; // 0 to 255
+
 #endif // !STATTYPES

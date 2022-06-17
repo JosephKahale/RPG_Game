@@ -2,10 +2,28 @@
 #define STATBLOCK
 #include "statTypes.h"
 
-struct statBlock {
-	stattype strenght; //OxFF
+class statBlock{
+private:
+	stattype strength; //OxFF
 	stattype intellect; //OxFF
-	statBlock() { strenght = (stattype)1u; intellect = (stattype)1u; }
+public:
+	statBlock() { 
+		strength = (stattype)1u;
+		intellect = (stattype)1u; 
+	}
+
+	explicit statBlock(stattype s, stattype i) { 
+		strength = s;
+		intellect = i; 
+	}
+
+	stattype getStrength() {
+		return strength;
+	}
+
+	stattype getIntellect() {
+		return intellect;
+	}
 };
 
 #endif // !STATBLOCK
